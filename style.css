@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-title h1 {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.banner {
+  padding: 50px 0;
+  background: rgb(9, 87, 121);
+  background: radial-gradient(
+    circle,
+    rgba(9, 87, 121, 1) 13%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 190px;
+}
+
+.logo-top {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  color: #b8860b;
+}
+
+.banner h2 {
+  text-align: center;
+  color: #fff;
+  size-adjust: 200px;
+}
+
+.banner p {
+  text-align: center;
+  color: #fff;
+}
+
+.banner-btn {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.banner-btn:hover {
+  background-color: #555;
+}
+
+.product:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product-details h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.product-details p,
+.product-details span {
+  margin: 0;
+}
+
+.product-details button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.product-details button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  margin: 0px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.logo-title {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#nyhetsbrev {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.linkimages {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.square:hover {
+  transform: translateY(-10px);
+}
+.square h3 {
+  margin: 0;
+  color: #fff;
+}
+.linkimages button {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+.linkimages button:hover {
+  background-color: lightskyblue;
+}

@@ -3,36 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <title>Båtfixarn - Båt affär</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="title_container">
-        <img src="Color logo - no background.svg" alt="logo" class="logo" />
-        <p class="title">Båtfixarn</p>
+    <header>
+      <div class="container-header">
+        <div class="logo-title">
+          <img class="logo-top" src="Color logo - no background.svg" alt="" />
+          <h1>Båtfixarn</h1>
+        </div>
+        <nav>
+          <ul class="top-list">
+            <li><a href="projekt.html">Hem</a></li>
+            <li><a href="båtar.html">Båtar</a></li>
+            <li><a href="kontaktaoss.html">Kontakta oss</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="menu_container">
-        <p class="menu_text">Menu</p>
-        <img
-          src="burger-menu-svgrepo-com (1).svg"
-          alt="Menu"
-          class="Menu_img"
-        />
+    </header>
+
+    <section class="banner">
+      <div class="container-banner">
+        <h2>Välkommen till båtfixarn</h2>
+        <p>Ditt ställe för att köpa båtar billigt!</p>
+      </div>
+    </section>
+
+    <div class="linkimages">
+      <div class="square" style="background-image: url('ruta1.jpg')">
+        <h3>Motorbåtar</h3>
+        <button><a href="motorbåtar.html" class="button">se mer !</a></button>
+      </div>
+      <div class="square" style="background-image: url('ruta2.webp')">
+        <h3>Fiskebåtar</h3>
+        <button><a href="Fiskebåtar.html" class="button">se mer !</a></button>
+      </div>
+      <div class="square" style="background-image: url('ruta3.png')">
+        <h3>Segelbåtar</h3>
+        <button><a href="Segelbåtar.html" class="button">se mer !</a></button>
       </div>
     </div>
-    <div class="products">
-      <div class="product">
-        <h2>Produkt 1</h2>
-        <p>skriv</p>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Båtfixarn</p>
       </div>
-      <div class="product">
-        <h2>Produkt 2</h2>
-        <p>skirv</p>
-      </div>
-      <div class="product">
-        <h2>Produkt 3</h2>
-        <p>skriv</p>
-      </div>
-    </div>
+    </footer>
   </body>
+  <script src="slutprojekt.js"></script>
 </html>
