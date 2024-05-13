@@ -34,3 +34,4 @@ shoppingCartBtn.addEventListener('click', () => {
 //   price: 10000,
 // };
 // shoppingCart.push(item);
+
