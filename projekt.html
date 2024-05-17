@@ -4,25 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Båtfixarn - Båt affär</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header>
       <div class="container-header">
         <div class="logo-title">
-          <img class="logo-top" src="Color logo - no background.svg" alt="" />
+          <img
+            class="logo-top"
+            src="images/Color logo - no background.svg"
+            alt=""
+          />
           <h1>Båtfixarn</h1>
         </div>
         <nav>
           <ul class="top-list">
-            <li>
-              <a
-                href="kundvagn.html"
-                class="shopping-cart-icon"
-                onclick="toggleCart()"
-                >🛒</a
-              >
-            </li>
             <li><a href="projekt.html">Hem</a></li>
             <li><a href="båtar.html">Båtsläpp</a></li>
             <li><a href="kontaktaoss.html">Kontakta oss</a></li>
@@ -35,42 +31,57 @@
       <div class="container-banner">
         <h2>Välkommen till båtfixarn</h2>
         <p>Bästa stället för att köpa båtar billigt!</p>
-        <button href="#våra-båtar" class="banner-btn">Utforska</button>
       </div>
     </section>
 
     <div class="linkimages">
-      <div class="square" style="background-image: url('ruta1.jpg')">
+      <div class="square" style="background-image: url('images/ruta1.jpg')">
         <h3>Motorbåtar</h3>
         <button><a href="motorbåtar.html" class="button">se mer !</a></button>
       </div>
-      <div class="square" style="background-image: url('ruta2.webp')">
+      <div class="square" style="background-image: url('images/ruta2.webp')">
         <h3>Fiskebåtar</h3>
         <button><a href="Fiskebåtar.html" class="button">se mer !</a></button>
       </div>
-      <div class="square" style="background-image: url('ruta3.png')">
+      <div class="square" style="background-image: url('images/ruta3.png')">
         <h3>Segelbåtar</h3>
         <button><a href="Segelbåtar.html" class="button">se mer !</a></button>
       </div>
     </div>
 
-    <div id="våra-båtar" class="våra-båtar">
-      <p>
-        Välkommen till vårt båtföretag, där vi erbjuder ett omfattande utbud av
-        båtar för alla behov och äventyr. Oavsett om du är ute efter en elegant
-        segelbåt för avkopplande dagar på havet, en kraftfull motorbåt för
-        spännande vattenaktiviteter eller en bekväm husbåt för långa resor längs
-        kanaler och floder, har vi något för dig. Vi är stolta över att erbjuda
-        ett brett sortiment av båtar från ledande tillverkare och varumärken, så
-        att du kan hitta den perfekta båten som passar dina behov och din
-        livsstil. Vår expertpersonal finns här för att vägleda dig genom ditt
-        val och ge dig den bästa möjliga servicen. Oavsett om du är en erfaren
-        båtägare eller nybörjare, kan du lita på oss för att leverera en båt av
-        högsta kvalitet och en upplevelse som överträffar dina förväntningar.
-        Utforska vårt sortiment idag och upptäck den perfekta båten för dina
-        äventyr till havs.
-      </p>
-    </div>
+    <section class="reviews-section">
+      <div class="reviews">
+        <h1>"Otroligt bra kvalite" ⭐⭐⭐⭐⭐</h1>
+        <p>
+          Vår båt är enastående när det gäller kvalitet. Varje detalj är
+          noggrant utformad och konstruerad för att möta de högsta standarderna.
+          Från robusta material till precisionstillverkning, vår båt är byggd
+          för att hålla och leverera en överlägsen prestanda i alla
+          förhållanden. Dess hållbarhet och tillförlitlighet gör den till det
+          perfekta valet för alla äventyr till sjöss.
+        </p>
+      </div>
+      <div class="reviews">
+        <h1>"Snabb leveranstid" ⭐⭐⭐⭐⭐</h1>
+        <p>
+          Vår leveranstid är oöverträffad. Vi strävar efter att leverera din båt
+          snabbt och effektivt, så att du kan komma ut på vattnet och njuta av
+          din nya ägodel så snart som möjligt. Med vår pålitliga och smidiga
+          leveransprocess kan du lita på att din båt når dig i tid för dina
+          planerade äventyr.
+        </p>
+      </div>
+      <div class="reviews">
+        <h1>"Billiga priser" ⭐⭐⭐⭐⭐</h1>
+        <p>
+          Våra priser är oslagbara. Vi erbjuder högkvalitativa båtar till mycket
+          rimliga priser, vilket gör det möjligt för dig att njuta av dina
+          vattenäventyr utan att spräcka budgeten. Med vårt konkurrenskraftiga
+          prissättningssystem kan du få valuta för pengarna och investera i en
+          båt som inte bara är prisvärd utan också av hög kvalitet.
+        </p>
+      </div>
+    </section>
 
     <footer>
       <div class="container">
@@ -84,5 +95,5 @@
       </div>
     </footer>
   </body>
-  <script src="slutprojekt.js"></script>
+  <script src="javascript/slutprojekt.js"></script>
 </html>
